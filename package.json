@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
+    "clean": "rm -rf dist/*",
+    "release": "npm run clean && npm run build",
+    "deploy": "cd dist && git add --all && git commit -m \"Release at $(date)\" && git push",
     "build": "webpack"
   },
   "keywords": [],
