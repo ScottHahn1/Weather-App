@@ -8,4 +8,4 @@ const humidity = document.querySelector('.humidity')
 const windSpeed = document.querySelector('.wind-speed')
 const dateTime = document.querySelector('.date-time')
 
-export{search, weatherDetails, extraWeatherDetails, hourlyWeatherDetails, fahrenheitBtn, iconDiv, feelsLike, humidity, windSpeed, dateTime}
+export{search, weatherDetails, extraWeatherDetails, hourlyWeatherDetails, iconDiv, feelsLike, humidity, windSpeed, dateTime}
