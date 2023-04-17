@@ -1,0 +1,152 @@
+.header {
+    width: 100%;
+    height: 100px;
+    color: white;
+    font-size: 6rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.search {
+    width: 25rem;
+    height: 3rem;
+    margin: auto;
+    display: block;
+    border: solid 3px black;
+    border-radius: 75px;
+    position: absolute;
+    left: 38%;
+    font-size: 1.5rem;
+    top: 30%;
+}
+
+.weather-details {
+    width: 250px;
+    height: 300px;
+    margin-left: 40px;
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bold;
+    left: 50px;
+    color: white;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+.extra-weather-details {
+    position: absolute;
+    right: 70px;
+    top: 81px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 25px;
+    width: 120px;
+    height: 300px;
+    text-align: center;
+}
+
+.hourly-weather-details {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 2%;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hour-div-0, .hour-div-1, .hour-div-2, .hour-div-3, .hour-div-4, .hour-div-5, .hour-div-6, .hour-div-7 {
+    width: 15%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.date-time {
+    width: 250px;
+    height: 70px;
+    font-size: 1.3rem;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 100px;
+}
+
+.units-switch {
+    width: 75px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 300px;
+    background-color: rgba(61, 61, 211, 0);
+    position: absolute;
+    left: 300px;
+}
+
+.icon-div {
+    width: 80px;
+    height: 100px;
+    position: absolute;
+    top: 33%;
+    left: 13%;
+}
+
+.background-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100%;
+}
+
+label {
+    font-size: 1rem;
+}
+
+@media only screen and (min-width: 1400px) {
+    .header {
+        font-size: 8rem;
+        /* top: 10%; */
+    }
+
+    .search {
+        width: 30rem;
+        height: 4rem;
+        font-size: 2rem;
+    }
+
+    .weather-details {
+        font-size: 3rem;
+    }
+
+    .extra-weather-details {
+        font-size: 2rem;
+    }
+
+    .hour-div-0, .hour-div-1, .hour-div-2, .hour-div-3, .hour-div-4, .hour-div-5, .hour-div-6, .hour-div-7 {
+        font-size: 3rem;
+    }
+
+    .icon-div {
+        left: 12%;
+        top: 38%;
+    }
+
+    .date-time {
+        top: 53%;
+    }
+}
+
+body {
+    margin: auto;
+    color: black;
+    background: linear-gradient(250deg, rgb(50, 50, 180) , rgb(17, 17, 95))
+}
